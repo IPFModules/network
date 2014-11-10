@@ -1,0 +1,10 @@
+<div class="network_headertable">
+	<{if $network_module_home}>
+	<span class="network_modulename"><{$network_module_home}></span>
+	<{/if}>
+	<{if $network_category_path}>
+	<span class="network_breadcrumb"><{if $network_module_home}>&gt;<{/if}><{$network_category_path}></span>
+	<{/if}>
+</div>
+
+<div id="network_submit" style="clear: both;"><{if $network_showSubmitLink && $network_userCanSubmit}><a href="<{$network_url}>post.php?op=mod"><{$smarty.const._MI_NETWORK_POST_ADD}></a><{/if}></div>

@@ -1,0 +1,29 @@
+<{includeq file='db:network_header.html'}>
+<{if $network_contact}>
+<div id="network-contact-container">
+	<h1><{$network_contact.firstname}></h1>
+		<div><b><{$smarty.const._CO_NETWORK_CONTACT_TITLE}></b>: <{$network_contact.title}></div>
+		<div><b><{$smarty.const._CO_NETWORK_CONTACT_MIDDLENAME}></b>: <{$network_contact.middlename}></div>
+		<div><b><{$smarty.const._CO_NETWORK_CONTACT_LASTNAME}></b>: <{$network_contact.lastname}></div>
+		<div><b><{$smarty.const._CO_NETWORK_CONTACT_JOB_TITLE}></b>: <{$network_contact.job_title}></div>
+		<div><b><{$smarty.const._CO_NETWORK_CONTACT_DEPARTMENT}></b>: <{$network_contact.department}></div>
+		<div><b><{$smarty.const._CO_NETWORK_CONTACT_ORGANISATION}></b>: <{$network_contact.organisation}></div>
+		<div><b><{$smarty.const._CO_NETWORK_CONTACT_ADDRESS}></b>: <{$network_contact.address}></div>
+		<div><b><{$smarty.const._CO_NETWORK_CONTACT_CITY}></b>: <{$network_contact.city}></div>
+		<div><b><{$smarty.const._CO_NETWORK_CONTACT_POSTCODE}></b>: <{$network_contact.postcode}></div>
+		<div><b><{$smarty.const._CO_NETWORK_CONTACT_PHONE}></b>: <{$network_contact.phone}></div>
+		<div><b><{$smarty.const._CO_NETWORK_CONTACT_FAX}></b>: <{$network_contact.fax}></div>
+		<div><b><{$smarty.const._CO_NETWORK_CONTACT_EMAIL}></b>: <{$network_contact.email}></div>
+		<div><b><{$smarty.const._CO_NETWORK_CONTACT_WEBSITE}></b>: <{$network_contact.website}></div>
+		<div><b><{$smarty.const._CO_NETWORK_CONTACT_BIOGRAPHY}></b></div>
+				<div><{$network_contact.biography}></div>
+		<div><b><{$smarty.const._CO_NETWORK_CONTACT_INSTITIONALREP}></b>: <{$network_contact.institionalrep}></div>
+		<div><b><{$smarty.const._CO_NETWORK_CONTACT_DATE}></b>: <{$network_contact.date}></div>
+
+</div>
+<{/if}>
+<{if $network_contact_table}>
+<h1><{$network_title}></h1>
+<{$network_contact_table}>
+<{/if}>
+<{includeq file='db:network_footer.html'}>
