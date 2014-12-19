@@ -11,7 +11,5 @@
  */
 
 defined("ICMS_ROOT_PATH") or die("ICMS root path not defined");
-
 define("_MD_NETWORK_ADMIN_PAGE", ":: Admin page ::");
-
 define("_MD_NETWORK_ALL_CONTACTS", "All contacts");

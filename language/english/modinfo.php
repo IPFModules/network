@@ -18,5 +18,3 @@ define("_MI_NETWORK_CONTACTS", "Contacts");
 define("_MI_NETWORK_DATE_FORMAT", "Date format");
 define("_MI_NETWORK_DATE_FORMAT_DSC", "Date format 
 	(<a href=\"http://php.net/manual/en/function.date.php\" target=\"blank\">see manual</a>)");
-define("_MI_NEWS_DATE_FORMAT_DSC", "You can format the timestamp on your contacts pretty much 
-	any way you like by changing the format string as per PHP's date() function.");
